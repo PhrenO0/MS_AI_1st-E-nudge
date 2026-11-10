@@ -76,5 +76,15 @@ Microsoft AI School 1차 팀 프로젝트 · 6인
 | Kenzie | ML Modeling / Pseudo-labeling |
 | Yongju | Backend API / DB Design |
 | Yuri | Frontend Development |
-| Junsang | Image Data Collection & Preprocessing |
+| Junsang | Image Data Collection & Preprocessing · Image Analysis Pipeline (Custom Vision) |
 | Juhee | Text Data Preprocessing |
+
+---
+
+### 🙋 My Part · Junsang (오준상)
+
+첫 팀 프로젝트였습니다. 데이터를 모으는 일부터 모델을 서비스 판정에 연결하는 일까지, AI 서비스가 만들어지는 흐름을 처음으로 끝까지 따라가 봤습니다.
+
+- **이미지 유해성 판별 담당**: 부적절 이미지 데이터셋을 직접 수집·전처리해 Azure Custom Vision 분류 모델의 학습 데이터로 구성했습니다.
+- **이미지 분석 파이프라인**: Custom Vision 예측 결과를 서비스 판정으로 바꾸는 부분을 맡아, 유해 확률 0.9 이상일 때만 `hate`로 차단하도록 기준을 보수적으로 잡았습니다.
+- **딥러닝 모델 비교 테스트**: 딥러닝 기반 분류 모델도 직접 테스트해 보며 서비스에 넣을 방식을 비교했습니다.
